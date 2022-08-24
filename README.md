@@ -9,5 +9,5 @@ able to add course information, including course code, course name and final let
 student information, remove entered course data by course code and save all currently entered information to a text file.
 This text file can be used to load the data back in by selecting the Returning Student option at start up. Selecting
 Returning Student will prompt for the student's name, which must be entered exactly as it was initially (the save files 
-are created using the student's name). The name is case-insensitive, however, so it can be loaded with entries such as  
+are created using the student's name). The name is case-insensitive, however, so it can be loaded with entries such as 
 "Sir Robin the Brave" or "sir robin THE braVE". 

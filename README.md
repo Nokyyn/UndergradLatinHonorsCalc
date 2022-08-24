@@ -1,5 +1,5 @@
 # Undergraduate Latin Honors Calculator
 
 ## About
-Catchy title, right?\n
-Program to calculate Latin honors level upon degree conferral for undergraduate studies. (C++ Practice)
+Catchy title, right? <br />
+This quick program calculates a student's Latin honors level upon degree conferral for undergraduate studies. 

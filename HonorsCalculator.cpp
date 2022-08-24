@@ -46,7 +46,8 @@ public:
 			cout << "Welcome to the Undergraduate University Honors Calculator!" << endl;
 			cout << "==========================================================" << endl << endl;
 			cout << "1: New Student" << endl;
-			cout << "2: Returning Student" << endl << endl;
+			cout << "2: Returning Student" << endl;
+			cout << "3: Exit" << endl << endl;
 			cout << "Please make a selection: ";
 			cin >> userOption;
 			if (cin) {
@@ -75,6 +76,11 @@ public:
 						setupComplete = true;
 					}
 					system("CLS");
+					break;
+						
+				case 3:
+					setupComplete = true;
+					isRunning = false;
 					break;
 
 				default:

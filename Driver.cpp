@@ -1,7 +1,7 @@
 /*
 * @file Driver.cpp
 *
-* @brief Calculates Latin Honors from grades and GPA
+* @brief Contains main method to begin program execution
 *
 * @author Nicholas Enquist
 *

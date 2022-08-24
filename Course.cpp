@@ -65,41 +65,7 @@ public:
 
 	// Use final grade to calculate grade points
 	void calculateGradePoints() {
-		/*if ((finalGrade >= 93) && (finalGrade <= 100)) {
-			gradePoints = 4.0;
-		}
-		else if ((finalGrade >= 90) && (finalGrade <= 92)) {
-			gradePoints = 3.67;
-		}
-		else if ((finalGrade >= 87) && (finalGrade <= 89)) {
-			gradePoints = 3.33;
-		}
-		else if ((finalGrade >= 83) && (finalGrade <= 86)) {
-			gradePoints = 3.0;
-		}
-		else if ((finalGrade >= 80) && (finalGrade <= 82)) {
-			gradePoints = 2.67;
-		}
-		else if ((finalGrade >= 77) && (finalGrade <= 79)) {
-			gradePoints = 2.33;
-		}
-		else if ((finalGrade >= 73) && (finalGrade <= 76)) {
-			gradePoints = 2.0;
-		}
-		else if ((finalGrade >= 70) && (finalGrade <= 72)) {
-			gradePoints = 1.67;
-		}
-		else if ((finalGrade >= 67) && (finalGrade <= 69)) {
-			gradePoints = 1.33;
-		}
-		else if ((finalGrade >= 60) && (finalGrade <= 66)) {
-			gradePoints = 1.0;
-		}
-		else {
-			gradePoints = 0.0;
-		}
-		*/
-
+		
 		if ((finalGrade.compare("A") == 0) || (finalGrade.compare("a") == 0)) {
 			gradePoints = 4.0;
 		}

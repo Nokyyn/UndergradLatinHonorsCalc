@@ -1,16 +1,13 @@
 /*
 * @file Student.cpp
 *
-* @brief Calculates Latin Honors from grades and GPA
+* @brief Class contains student information: name, school name, course list, GPA
 *
 * @author Nicholas Enquist
 *
 * This program was created to determine if a student is eligible for Latin Honors upon
 * degree conferral, based on completed course grades. The student may enter grades for courses
 * not yet completed to determine minimum grades required to attain certain honor levels.
-* 
-* Student class contains all relevant information for a single student
-* Including name, school name, all courses completed and current GPA
 */
 
 #include <string>

@@ -204,7 +204,8 @@ public:
 		Course course(courseCode, courseName, finalGrade);
 		student.addCourse(course);
 	}
-
+	
+	// Remove a course from the student's course list, using the course code
 	void removeCourse() {
 		string courseCode;
 
@@ -235,7 +236,8 @@ public:
 		// Pause to allow review of current student record
 		system("PAUSE");
 	}
-
+	
+	// Save student info to text file
 	void saveStudentInfo() {
 		filename = student.getStudentName() + " Honors Evaluation.txt";
 	
@@ -260,7 +262,8 @@ public:
 
 		writer.close();
 	}
-
+	
+	// Display main menu options and allow user to make a selection
 	void displayOptions() {
 		int userChoice = 0;
 		cout << "1: Enter new course results" << endl;
